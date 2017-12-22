@@ -32,8 +32,8 @@ class GameState extends Phaser.State {
 		this.game.load.bitmapFont('myfont', 'assets/font/font.png', 'assets/font/font.fnt');
 
 		/** Preload Sounds */
-		this.game.load.audio('tune', ['assets/sounds/xmas_songs_arcade_punk_remix.mp3','assets/sounds/8bp038-05-bit_shifter-let_it_snow.ogg']);
-		// this.game.load.audio('tune', 'assets/sounds/8bp038-05-bit_shifter-let_it_snow.m4a');
+		// this.game.load.audio('tune', ['assets/sounds/xmas_songs_arcade_punk_remix.mp3','assets/sounds/8bp038-05-bit_shifter-let_it_snow.ogg']);
+		this.game.load.audio('tune', 'assets/sounds/xmas_songs_arcade_punk_remix.mp3');
 		this.game.load.audio('collect', 'assets/sounds/collect.mp3');
 		this.game.load.audio('death', 'assets/sounds/death.mp3');
 	}
