@@ -5,8 +5,8 @@ class Box {
         this.group = group;
         this.boxSpeed = -200;
 
-
-        this.box = this.game.add.sprite(x, y, 'box');
+        let boxNumber= Math.ceil(Math.random()*3);
+        this.box = this.game.add.sprite(x, y, 'box'+boxNumber);
         this.game.physics.enable( this.box, Phaser.Physics.ARCADE);
         this.group.add(this.box);
         

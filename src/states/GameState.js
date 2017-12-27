@@ -24,7 +24,9 @@ class GameState extends Phaser.State {
 		this.game.load.spritesheet('santa', 'assets/santa.png', 134, 48, 7, 0, 10);
 		this.game.load.image('magicParticle', 'assets/magicParticle.png', 16, 16);
 		this.game.load.spritesheet('crow', 'assets/crow.png', 48, 40, 4);
-		this.game.load.spritesheet('box', 'assets/box1.png', 32, 32, 8);
+		this.game.load.spritesheet('box1', 'assets/box1.png', 32, 32, 8);
+		this.game.load.spritesheet('box2', 'assets/box2.png', 32, 32, 8);
+		this.game.load.spritesheet('box3', 'assets/box3.png', 32, 32, 8);
 		this.game.load.image('snowflake', 'assets/snowflake_50.png', 16, 16);
 
 		/** Preload Font Loader */
